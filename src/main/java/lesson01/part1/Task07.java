@@ -27,7 +27,7 @@ public class Task07 {
 
     public static double convertCelsiusToFahrenheit(int celsius) {
 double fahrenheit;
-        fahrenheit=((9/5)*convertCelsiusToFahrenheit(41)+32);
+        fahrenheit=1.8*41+32;
         return fahrenheit;
     }
 }

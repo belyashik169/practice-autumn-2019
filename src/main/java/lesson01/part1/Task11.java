@@ -27,15 +27,14 @@ public class Task11 {
         final private int c = 2;
 
         public long getVolume(int a, int b, int c) {
-            //напишите тут ваш код
-            return 0;
+            return a*b*c;
         }
 
     }
 
     public static void main(String[] args) {
         Pool pool = new Pool();
-        long poolVolume = pool.getVolume(25, 5, 2);
+        long poolVolume = pool.getVolume(25, 25, 2);
         System.out.println(poolVolume);
     }
 
