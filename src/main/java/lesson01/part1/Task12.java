@@ -15,10 +15,10 @@ public class Task12 {
      */
 
     public static void main(String[] args) {
-        String apple = "Yabloko";
+        String apple = "Яблоко";
         String porridge = "Каша";
         String sausage = "Колбаса";
-        String peach = "Persik";
+        String peach = "Персик";
 
         System.out.println((String)apple);
         System.out.println((String) peach);
