@@ -23,7 +23,11 @@ public class Task04 {
      */
 
     public static void main(String[] args) {
-        //напишите тут ваш код
+        int a = (int) (1 + Math.random()*100);
+        int b = (int) (1 + Math.random()*100);
+
+        System.out.println(a+b);
+        System.out.println(a*b);
     }
 
 }
